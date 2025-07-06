@@ -1,0 +1,80 @@
+# ESP-IDF Build System
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.old
+
+# Component Manager
+dependencies.lock
+managed_components/
+
+# Factory provisioning files
+factory.bin
+factory.csv
+
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# C/C++
+*.o
+*.a
+*.so
+*.obj
+*.exe
+*.dll
+*.dylib
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Custom configuration files (if any)
+config.h
+secrets.h
+
+# Documentation build
+docs/_build/
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# ESP-IDF specific
+bootloader-prefix/
+partition_table-prefix/
+esptool_py-prefix/
+app-template-prefix/
+
+# Monitor output
+monitor.log
